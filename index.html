@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lets do it something new</title>
+</head>
+<style>
+	body{
+		background-image: url(cht.png);
+		font-family: Arial;
+		text-align: center;
+		
+	}
+	.box{
+		margin:100px auto;
+		width: 300px;
+		padding: 40px;
+		border: 2px solid #444;
+		border-radius: 15px;
+		background: rgba(0, 0, 0, 0.8);
+	}
+	.box:hover{
+		border: 2px solid purple;
+	}
+	h1{
+		color: red;
+		font-size: 40px;
+		font-weight: bold;
+	}
+	h2{
+		color: whitesmoke;
+		font-size: 25px;
+																																																																																																																																																						}
+	input{
+		width: 90%;
+		margin:10px;
+		padding: 12px;
+		border:1px solid #555;
+		border-radius: 10px;
+		background: #2a2a2a;
+		color: whitesmoke;
+		outline: none;
+	}
+	input:focus{
+		border: 2px solid #8b4dff;
+	}
+	button{
+		cursor: pointer;
+		width: 98%;
+		padding: 12px;
+		font-size: 20px;
+		margin: 10px;
+		color: whitesmoke;
+		background: red;
+		border: none;
+		border-radius: 15px;
+
+	}
+	button:hover{
+		background: darkred;
+	}
+	p{
+		color: whitesmoke;
+	}
+	.Remember{
+		display: flex;
+		margin-top: 10px;
+		color: whitesmoke;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.Remember label{
+		display:flex;
+		align-items: center;
+		cursor: pointer;
+	}
+	.Remember input{
+		height: 16px;
+		width: 16px;
+		margin: 0 6px 0 0;
+		cursor: pointer;
+	}
+	.Remember a{
+		color: whitesmoke;
+		text-decoration:none;
+	}
+	.Remember a:hover{
+		text-decoration: underline;
+	}
+</style>
+<body>
+<div class="box">
+	<h1>NETFLIX</h1>
+	<h2> Sign In</h2>
+	<input type="Number"placeholder="Email or phone number">
+	<input type="Password"placeholder="Password">
+	<button onclick="SignIn()">Sign In</button>
+	<div class="Remember">
+    <label>
+        <input type="checkbox">
+        <span>Remember me</span>
+    </label>
+
+    <a href="#">Need help?</a>
+</div><br>
+	<p>New to Netflix?</p>
+	<a href="#">Sign up now</a>
+</body>
+</html>
